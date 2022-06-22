@@ -10,7 +10,7 @@ from influxdb_client.client.write_api import SYNCHRONOUS
 
 bucket = 'sys_temp'
 org = 'mltdma'
-token = '4ncNIyyi-BXk4zsK0f93hO_Q1LUfYEC6sQWLXZ9qRnLyti65X6ZPpgJLByOuPK-WmrOuA5Ksyx5__mzBSfoQFQ=='
+token = ''
 url = 'http://localhost:8086'
 
 client = InfluxDBClient(url = url, token = token, org = org)
