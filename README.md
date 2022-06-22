@@ -2,8 +2,10 @@
 A simple utility to log local system temps and record them in a local or remote influxdb
 
 ## Requirments
-Ths script relies on python `influxdb_client` 
-as well as having an influxdb instance to point data to
+- linux system
+- python3
+- python `influxdb_client` 
+- influxdb instance to point data to
 
 ## Setup
 1.  Edit the script with your influxdb ip, bucket, org, and api token
